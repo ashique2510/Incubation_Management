@@ -1,0 +1,58 @@
+.title {
+    font-size: 80px;
+    color: white;
+    text-shadow: 10px 2px 2px black;
+
+  }
+  .subtitle {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 13%;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 2px 2px black;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+  .intro{
+    padding-bottom: 20px;
+  }
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/photos/abstract-composition-with-connecting-dots-and-lines-futuristic-for-picture-id1341437653?b=1&k=20&m=1341437653&s=170667a&w=0&h=TsUPRBpi8fTDj-HTPD9AqSujWadlti0tZaCu3ue70ic=');
+    background-position: cover;
+    background-size: cover;
+}
+.buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .landingbutton {
+    width: 200px;
+    height: 55px;
+    margin-left: 10px
+;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .buttonContainer {
+      padding: 0 200px;
+    }
+    .title {
+      padding: 0 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    
+  }
